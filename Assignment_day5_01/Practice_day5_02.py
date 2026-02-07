@@ -1,0 +1,194 @@
+# Python Basics ####################################################################################################
+
+# What is your name! print your name!
+# Only use one print function
+print("Abhi")
+
+# define variables named as with values: mukesh=7, z=6, rohan=5, longitude=4
+mukesh = 7
+z = 6
+rohan = 5
+longitude = 4
+
+# print required variable
+# output - 5
+print(rohan)
+
+# Declaring Variable ###############################################################################################
+
+# declare 4 variables with values as: ur_age 21,ur_weight 50.6, ur_first_name = 'Mukesh',ur_last_name = "Manral"
+ur_age = 21
+ur_weight = 50.6
+ur_first_name = 'Mukesh'
+ur_last_name = "Manral"
+
+
+# Data Type (types of variabls #
+## print type of ur_age,ur_weight,ur_first_name,ur_last_name variables
+print(type(ur_age))
+print(type(ur_weight))
+print(type(ur_first_name))
+print(type(ur_last_name)) 
+
+# print values of ur_age,ur_weight,ur_first_name,ur_last_name variables
+print(ur_age)
+print(ur_weight)
+print(ur_first_name)
+print(ur_last_name)
+
+# make 2 variables with values as: ur_first_name 'Mukesh',ur_last_name'Mukesh'
+ur_first_name = 'Mukesh'
+ur_last_name = 'Mukesh'
+
+# make a variable TrueOrFalse which will have comparison of variables ur_last_name == ur_first_name
+TrueOrFalse = ur_last_name == ur_first_name
+print(TrueOrFalse)
+
+# define a variable name "x" and assign value 777 and print it
+x = 777
+print(x)
+
+# Initialize variables [x,y,z,zz] with values
+## x as 7 =>int ,
+## y as 77 =>int,
+## z as 77.7 => float,
+## zz as 'Hi' => string
+
+x = 7
+y = 77
+z = 77.7
+zz = 'Hi'
+
+# Arithmetic Operators #
+
+# add x and z
+print(x + z)
+
+# subtract z and y
+print(z - y)
+
+# Multiply x and z
+print(x * z)
+
+# Exponent (raise the power or times) x times z
+print(x ** z)
+
+# division on x and z
+print(x / z)
+
+# floor division(ignores decimal) on x and z (gives quotient)
+print(x // z)
+
+# Modulo(gives remainder) on x and z
+print(x % z)
+
+# Comparison Operators #
+
+# comapre and see if x is less then z
+# can use '<' symbol
+print(x < z)
+
+# check the type of above comaprison where it says comapre and see if x is less then z
+print(type(x < z))
+
+# comapre and see if x equall to z
+# can use '==' symbol
+print(x == z)
+
+# comapre and see if x is greater than z
+# can use '>' symbol
+print(x > z)
+
+# comapre and see if x is greater than or equall to z
+# can use '>=' symbol
+print(x >= z)
+
+# comapre and see if x is Not equall to z
+# can use '!=' symbol
+print(x != z)
+
+# Logical Operators #
+
+# compare if 108 is equall to 108, 21 is equall to 21 using logical and
+# equall to => '=='
+# logical and => and
+
+# in and both condition must be True to get a True
+print((108 == 108) and (21 == 21))
+
+# how above condition can give False as output show all those conditions
+print((108 == 108) and (21 == 22))
+print((108 == 999) and (21 == 21))
+print((108 == 999) and (21 == 777))
+
+# compare if 108 is equall to 108, 21 is equall to 11 using logical or
+# equall to => '=='
+# logical or => or
+
+# in or Only one condition need to be True to get a True
+print ((108 == 108) or (21 == 11))
+
+# this is for you to understand it
+(108 == 108) or (21 == 11) or (108 <= 11)
+
+####################################################################################################################
+
+# if --- else => to handle single condition
+# if --- elif --- else => to handle multiple condition
+
+# make variable with value as : money 100000
+money = 100000
+
+# see output of money > 2000
+print(money > 2000)
+
+# assign money variable value of 10000
+##### say you have this much ammount in your account
+money = 10000
+
+# start of if condition
+# if money is greater then 1000 which is data science course free
+# if money > 1000 is false i.e. you have less money then 1000 in your account then else will work for now only if is working
+
+if money > 1000:
+  print("You Have Sufficient Balance!")
+else:
+  print("Sorry, Insufficient Balance! Maybe Next Time")
+
+###########################################################################
+
+# take a test_score variable with 80 in it.
+test_score = 80
+
+# if test_score greater then 80 then print A grade
+# elif test_score greater then 60 and less then 80 print B grade
+# else print Nothing for you
+
+if test_score >= 80:
+  print("A grade")
+elif test_score > 60 and test_score < 80:
+  print("B grade")
+else:
+  print("Nothing for you")
+
+####################################################################################################################
+
+# Python Loops #
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
