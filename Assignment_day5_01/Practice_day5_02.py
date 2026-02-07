@@ -175,7 +175,63 @@ else:
 
 # Python Loops #
 
+for iterating_variable in range(10):
+    print(iterating_variable)
 
+# print 'I love sports' 10 times using for loop
+for i in range(10):
+    print("I love sports")
+
+# while loop
+# save 0 in variable number
+number = 0
+
+# print till 10 using while loop
+while number < 10:
+  print(number)
+  number = number + 1
+
+
+# Type of Jump Statements #
+
+#Break Statement #
+
+# example that uses break statement in a for loop
+# take range(10) and print 'The number is' + value
+# break when num equals 5
+
+for num in range(10):
+  if num == 5:
+        break
+  print("The number is", num)
+
+
+# Using same `for loop program` as in Break Statement section above
+# Use a continue statement rather than a break statement
+# take range(10) and print 'The number is' + value
+# continue when num equals 5
+
+for num in range(10):
+  if num == 5:
+    continue
+  print("The number is", num)
+
+
+# String Manipulation #
+
+# define a string variable with "We are creating next generation data science eco-system at CollegeRanker"
+sentence = "We are creating next generation data science eco-system at CollegeRanker"
+
+# Find length of string including spaces
+print(len(sentence))
+
+# Access characters in a string with indexing i.e string[0]
+print(sentence[0])
+
+# Access characters with negative indexing i.e string[-1]
+print(sentence[-1])
+
+# String Slicing #
 
 
 
