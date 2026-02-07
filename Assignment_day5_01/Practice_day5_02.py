@@ -233,7 +233,55 @@ print(sentence[-1])
 
 # String Slicing #
 
+# select string from first to 6th element i.e string[:6]
+print(sentence[:6])
 
+# select string from 7th to negative 10th element i.e string[7:-10]
+print(sentence[7:-10])
+
+# Count of a particular character in a string
+print(sentence.count('o'))
+
+# Count of a particular sub-string in a string
+print(sentence.find('data'))
+
+# Find a substring in string using find and index function
+# .find() => if present it will return starting index, not found then it will return -1
+print(sentence.find('generation'))
+
+# .index() => if present it will return starting index, not found then it will give error
+print(sentence.index('generation'))
+
+### Checking whether string `startswith` or `endswith` a particular substring or not
+print(sentence.startswith('We'))
+print(sentence.endswith('creating'))
+
+### Converting string to upper case ###
+print(sentence.upper())
+
+### Converting only first character of string to upper case
+print(sentence.capitalize())
+
+### Checking if string is in lower case or upper case
+print(sentence.islower())
+print(sentence.isupper())
+
+### Checking if string is digit, alpabetic, alpha-numeric
+print(sentence.isdigit())
+print(sentence.isalpha())
+print(sentence.isalnum())
+
+# assign "C++ is easy to learn" to a new_str variable
+new_str = "C++ is easy to learn"
+
+### Replace C++ with Python
+new_str = new_str.replace("C++", "Python")
+print(new_str)
+
+### Use Split function on new_str ###
+print(new_str.split())
+
+# Python Functions ################################################################################################
 
 
 
