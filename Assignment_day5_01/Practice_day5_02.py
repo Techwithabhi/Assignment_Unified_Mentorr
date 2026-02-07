@@ -336,5 +336,4 @@ def random_function():
 print(random_function())
 print(global_variable2)
 
-
-
+############################################ END OF THE ASSIGNMENT ############################################
