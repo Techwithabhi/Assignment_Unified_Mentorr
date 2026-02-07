@@ -283,16 +283,58 @@ print(new_str.split())
 
 # Python Functions ################################################################################################
 
+# define a function with welcome_message(name) and body 'Welcome to Functions !!!'
+def welcome_message(name):
+  print(f"Hello {name},Welcome to Functions !!!")
 
+# call a function with your name
+welcome_message("Ranchoor Das Chanchar")
 
+# Write a function to add two number which are as 3 and 4
+# in total variable store adition of 3 + 4
+# print total variable
+def add_numbers(a, b):
+  total = a + b
+  print(total)
 
+add_numbers(3, 4)
 
+# Positional Arguments #
 
+## Create substraction_function(small_number,large_number) and return difference between large_number and small_number
+def substraction_function(small_number, large_number):
+  return large_number - small_number
 
+# always pass arguments using there name(keyword arguments) then order does not matter
+print(substraction_function(large_number=93, small_number=24))
 
+# Scope of Variables means that part of program where we can access particular variable ############################
 
+#### Observe every output from here onwords #####
+# defining a global variable
+global_variable = str(input('Write Something Here: '))
 
+def random_function(value):
+    # accessing variable which is outside of this function
+    return value
 
+print(random_function(global_variable))
+
+# => Let's see what will happen if we try to change value of global variable from Inside of the Function
+
+#### Observe every output from here onwords #####
+# defining a global variable
+global_variable2 = 'variable outside of function'
+
+# defining function
+def random_function():
+    # changing value of global variable from inside of the function
+    global_variable2 = 'changing variable outside of function from inside of function'
+    # accessing variable which is outside of this function
+    return global_variable2
+
+print(random_function())
+print(global_variable2)
 
 
 
